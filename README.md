@@ -1,17 +1,16 @@
 # CheerBot
 
-A student mental wellness chatbot prototype built using HTML, CSS, and JavaScript.
+A mental wellness chatbot prototype built using HTML, CSS, and JavaScript.
 
 ## Project Overview
 
-CheerBot is a web-based chatbot concept designed to provide a friendly conversational experience. It explores basic chatbot interactions, browser-based speech synthesis, and webcam functionality.
+CheerBot is a web-based chatbot concept designed to provide a friendly conversational experience. It explores basic chatbot interactions and browser-based speech synthesis.
 
 ## Features
 
 - **Sign-in / Sign-up Interface:** Animated landing page with a sliding login and registration interface.
 - **Rule-Based Chatbot:** Matches user messages against predefined prompts and responds with predefined replies.
 - **Text-to-Speech:** Uses the browser's Web Speech API to read chatbot responses aloud.
-- **Webcam Interaction:** Provides an experimental camera feature using the browser's MediaDevices API.
 
 ## Technologies Used
 
@@ -19,7 +18,6 @@ CheerBot is a web-based chatbot concept designed to provide a friendly conversat
 - CSS3
 - JavaScript
 - Web Speech API
-- MediaDevices API
 
 ## Project Structure
 
@@ -53,16 +51,14 @@ cheerbot/
 
 2. Open the project using a local development server, such as the VS Code Live Server extension.
 
-3. Open the local URL in a browser and explore the prototype.
-
-A local server is recommended for browser features such as webcam access.
+3. Open the local URL in a browser to explore the prototype.
 
 ## Implementation Notes
 
 - Chatbot responses are based on predefined JavaScript prompt and reply arrays, not an AI model.
 - The sign-in and sign-up screens are interface demonstrations; authentication is not connected to a backend.
-- Speech output and webcam functionality depend on browser support and user permissions.
+- Speech output depends on browser support.
 
 ## Disclaimer
 
-This project is an experimental student prototype and is **not a professional mental health service, clinical tool, or crisis support system**. It should not be relied upon for mental health advice or emergency assistance.
+CheerBot is an experimental prototype and is **not a professional mental health service, clinical tool, or crisis support system**. It should not be relied upon for mental health advice or emergency assistance.
